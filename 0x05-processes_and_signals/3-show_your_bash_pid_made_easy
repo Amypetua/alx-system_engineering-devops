@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script thats displays the PID with process name
+
+pgrep bash -l
