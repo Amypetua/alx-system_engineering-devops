@@ -3,7 +3,7 @@
 
 terminator()
 {
-	/var/run/myscript.pid
+	rm /var/run/myscript.pid
 	exit
 }
 
