@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that terminates 6-stop_me_if_you_ca
+
+pkill -f 7-highlander
