@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# Script that displays lines containing the bash word
+
+ps -auxf | grep bash
