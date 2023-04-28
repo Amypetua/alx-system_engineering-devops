@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 # Script that kills the to infinity and beyond
 
-while true
-fo
-	echo "To infinity and beyond"
-	kill 
-done
+kill $(pgrep -f "4-to_infinity_and_beyond")
