@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
-
 echo "Listening ports:"
 echo "------------------"
-
 netstat -ln | awk "{print $1,$4,$6}" | grep LISTEN | while read -r line;
 do
 	pid=$(echo "$line" | awk "{split($2,a,/:/); printf '%s', a[1]}" | xargs)
 	process=$(ps -p "$pid" -o comm= | xargs)
-
 	echo "$line ($process)"
 done
