@@ -4,6 +4,5 @@
 # -localhost resolves to 127.0.0.2
 # -facebook.com resolves 8.8.8.8
 
-cp /etc/hosts ~/hosts.new
 echo -e "127.0.0.2\tlocalhost" | sudo tee -a /etc/hosts
 echo -e "8.8.8.8\tfacebook.com" | sudo tee -a /etc/hosts
