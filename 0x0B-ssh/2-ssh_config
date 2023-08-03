@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# SSH client configuration to be configured to refuse to authenticate using pw
-# This will ensure that the server does not ask for password when logging in.
-Host *
-	PasswordAuthentication no
-	IdentityFile ~/.ssh/school

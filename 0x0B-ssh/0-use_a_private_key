@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# A bash script that uses ssh to connect to my server using the private key
-# I am to use ssh single-character flag
-# No  need to handle the case of a private key protected by a passphrase
-
-ssh -i ~/.ssh/school ubuntu@107.22.142.244
