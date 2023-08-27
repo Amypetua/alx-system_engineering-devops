@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # How to connect to a server
 
-hostname="54.90.62.86"
+hostname="100.26.163.209"
 #private_key="~/.ssh/school"
 user="ubuntu"
 
