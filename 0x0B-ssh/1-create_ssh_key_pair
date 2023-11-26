@@ -1,4 +1,5 @@
 #!usr/bin/env bash
 # A script that creates an RSA key pairs of bit size 4096 with passprase betty
 
-ssh-keygen -b 4096 -f school -N betty
+# ssh-keygen -b 4096 -f school -N betty
+ssh-keygen -t rsa -b 4096 -P betty -f school
